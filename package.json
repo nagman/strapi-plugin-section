@@ -1,11 +1,15 @@
 {
 	"name": "strapi-plugin-section",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "This is the description of the plugin.",
 	"strapi": {
 		"name": "section",
 		"description": "Description of section plugin",
 		"kind": "plugin"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nagman/strapi-plugin-section.git"
 	},
 	"dependencies": {
 		"@strapi/design-system": "^1.6.5",
@@ -32,7 +36,7 @@
 		"styled-components": "^5.3.6"
 	},
 	"author": {
-		"name": "A Strapi developer"
+		"name": "Nagman"
 	},
 	"maintainers": [
 		{
