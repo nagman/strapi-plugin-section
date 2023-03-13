@@ -76,7 +76,7 @@ export default function Index({ name, intlLabel, attribute }: Props) {
       <Typography variant={title.variant}>
         {intlLabel.defaultMessage || name}
       </Typography>
-      <Box paddingTop={padding / 2} paddingBottom={padding}>
+      <Box paddingTop={padding / 2} paddingBottom={padding / 2}>
         <Divider />
       </Box>
     </Box>
